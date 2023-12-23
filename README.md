@@ -3,3 +3,6 @@ Welcome to the White Space project! This project aims to explore the possibiliti
 To run this code first do npm i 
 
 then type npm start
+
+![Alt text](image.png)
+![Alt text](image-1.png)
