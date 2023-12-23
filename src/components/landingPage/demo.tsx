@@ -36,20 +36,7 @@ const Demo: React.FC = function () {
     return (
         <DemoContainer>
             <h2>Demo</h2>
-            {/* <div className='videos'>
-                {
-                    videos.map(video => (
-                        <div className='previewContainer' data-id={video.videoId} onClick={playVideo}>
-                            <div className="preview">
-                                <img src={`https://img.youtube.com/vi/${video.videoId}/0.jpg`} />
-                            </div>
-                            <h4 className="videoName">
-                                {video.name}
-                            </h4>
-                        </div>
-                    ))
-                }
-            </div> */}
+           
             {
                 activeVideo
                     ? <Modal onOverlayClick={stopVideo}>
